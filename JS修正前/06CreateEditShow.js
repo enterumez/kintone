@@ -14,7 +14,7 @@
             for (const row of rows) {
                 const fields = row.value;
 
-                if (username !== "梅澤秀太" && username !== "山内　彩香" && username !== "濱田愛") {
+                if (username !== "梅澤秀太") {
                     fields.処理完了日.disabled = true;
                     fields.棄却理由.disabled = true;
                 }
