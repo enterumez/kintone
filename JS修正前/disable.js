@@ -11,7 +11,7 @@
     const lastRowIndex = tableData.length - 1;
     const lastRow = tableData[lastRowIndex].value;
 
-    if (username !== "梅澤秀太" && username !== "山内　彩香" && username !== "濱田愛") {
+    if (username !== "梅澤秀太") {
       if (["承認済・処理中", "理事承認待ち", "処理完了", "棄却"].includes(lastRow['申請状況'].value)) {
         lastRow.申請状況.value = "申請中";
         alert("本部以外のユーザーは「申請中」以外には変更できません。");
