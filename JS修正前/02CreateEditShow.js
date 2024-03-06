@@ -10,7 +10,7 @@
     let username = user.name;
     console.log(username);
 
-        if (username === "梅澤秀太" || username === "山内　彩香" || username === "濱田愛") {
+        if (username === "梅澤秀太") {
             resolve(event);
         } else {
             event.record.各アプリデータ更新.disabled = true;
