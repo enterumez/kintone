@@ -8,7 +8,7 @@
     const user = kintone.getLoginUser();
     let username = user.name;
     console.log(username);
-    if (username === "梅澤秀太" || username === "山内　彩香" || username === "濱田愛") {
+    if (username === "梅澤秀太") {
     kintone.app.record.setFieldShown('各アプリデータ更新', true);
     kintone.app.record.setFieldShown('他アプリ同時更新用フィールド', true);
     resolve(event);
